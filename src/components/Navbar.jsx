@@ -22,7 +22,7 @@ function Navbar() {
 </div>
     <Link className='mx-1  md:mx-10  rounded-lg hover:bg-orange-400 p-3 hover:font-bold text-lg cursor-pointer' href="/About">About</Link>
     <Link className='mx-1  md:mx-10  rounded-lg hover:bg-orange-400 p-3 hover:font-bold text-lg cursor-pointer' href="/Contact">Contact</Link>
-    <Link className='mx-1  md:mx-10  rounded-lg hover:bg-orange-400 p-3 hover:font-bold text-lg cursor-pointer' href="/Services">Services</Link>
+    {/* <Link className='mx-1  md:mx-10  rounded-lg hover:bg-orange-400 p-3 hover:font-bold text-lg cursor-pointer' href="/Services">Services</Link> */}
     {/* <Link className='mx-1 sm:mx-5 md:mx-10  rounded-lg hover:bg-orange-400 p-3 hover:hover:font-bold text-lg cursor-pointer' href="/#review">Reviews</Link> */}
     {/* <Link className='mx-1 md:mx-10  rounded-lg hover:bg-orange-400 p-3 hover:hover:font-bold text-lg cursor-pointer' href="/#achievements">Achievements</Link> */}
     

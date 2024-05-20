@@ -1,6 +1,5 @@
 import mongoose from "mongoose"
 
-
 const Appointement = new mongoose.Schema({
   Service:{
    type: String,
@@ -8,7 +7,7 @@ const Appointement = new mongoose.Schema({
   },
   category:{
   type: String,
- required: false,
+
   },
   price:{
     type: String,
@@ -30,8 +29,8 @@ const Appointement = new mongoose.Schema({
   phone: {
     type: String,
     required: true,
-    trim: true,
-    match: [/^\d{10}$/, 'Please fill a valid 10-digit phone number'],
+   
+    
   },
   date: {
     type: String,

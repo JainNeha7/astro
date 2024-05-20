@@ -31,7 +31,7 @@ const handleSubmit = async()=>{
 // toast.success("Form submitted successfully")
   }catch(error){
   console.log("Submission failed", error.message);
-alert('Please fill the form properly');
+
   }
 }
 

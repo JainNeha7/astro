@@ -57,7 +57,7 @@ const handleForm = (e) => {
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <h3 className="font-bold text-lg">Physical treatment</h3>
-    <p className="py-4">Physical treatment for a healer involves activities or therapies aimed at relieving physical strain or injuries caused by their healing work. This could include massage therapy 💆‍♂️, acupuncture 📌, chiropractic adjustments 🦴, hot/cold therapy 🌡️, and exercises/stretching 🏋️‍♀️. These treatments help healers maintain their physical well-being and continue their important work
+    <p className="py-4">Physical treatment for a healer involves activities or therapies aimed at relieving physical strain or injuries caused by their healing work. This could include massage therapy 💆‍♂️, acupuncture 📌, chiropractic adjustments 🦴, hot/cold therapy 🌡️, and exercises/stretching 🏋️‍♀️. These treatments help you maintain their physical well-being and continue their important work
 </p>
 
    <div> <form onSubmit={handleForm} className='space-y-4'>

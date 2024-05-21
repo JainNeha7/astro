@@ -19,11 +19,11 @@ const handleform = async()=>{
   try{
     const response = await axios.post("/api/contact",user);
     console.log("form submission success", response.data);
-    
+    alert("Response Submitted Seccessfully")
 // toast.success("Form submitted successfully")
   }catch(error){
   console.log("Submission failed", error.message);
-  toast.error(error.message);
+ alert("please fill the details properly")
   }
 }
 

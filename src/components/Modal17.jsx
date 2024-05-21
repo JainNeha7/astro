@@ -8,8 +8,8 @@ function Modal17() {
   
 
   const [app, setApp] = React.useState({
-    Service:"CANCER Treatment",
-    price:"₹ 7777",
+    Service:"Holistic Treatement for Physical Health",
+    price:"₹ 5555",
     name:"",
     email:"",
     phone:"",
@@ -38,8 +38,8 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"CANCER Treatment",
-    price:"₹ 7777",
+    Service:"Holistic Treatement for Physical Health",
+    price:"₹ 5555",
     name: '',
     email: '',
     phone: '',
@@ -56,8 +56,8 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">CANCER Treatment</h3>
-    <p className="py-4">Cancer treatment for a healer 🩺✨ involves a combination of therapies like surgery 🏥, chemotherapy 💉, radiation therapy ☢️, targeted therapy 🎯, and immunotherapy 💪. The goal is to remove or destroy cancer cells while minimizing harm to healthy cells, allowing the healer to focus on their own well-being and recovery. 🌟
+    <h3 className="font-bold text-lg">Holistic Treatement for Physical Health</h3>
+    <p className="py-4">After consultation, ma'am will check the aura and identify the root cause of the patient's problem to determine further holistic treatments.
 </p>
 
    <div> <form onSubmit={handleForm} className='space-y-4'>

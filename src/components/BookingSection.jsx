@@ -47,10 +47,11 @@ function BookingSection() {
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
   <input type="radio" name="rating-1" className="mask mask-star" checked />
+  <input type="radio" name="rating-1" className="mask mask-star"  />
+  <input type="radio" name="rating-1" className="mask mask-star"  />
   <input type="radio" name="rating-1" className="mask mask-star" />
+  {/* <input type="radio" name="rating-1" className="mask mask-star" /> */}
   </div>
   </div>
   <div className=' '>
@@ -376,33 +377,6 @@ function BookingSection() {
 </div>
 {/* Another card */}
 
-<div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
-  <figure><img src="/vasudha.png" alt="card" /></figure>
- 
-  <div className="card-body ml-4">
-    <div className='flex justify-between'>
-<div>
-    <h2 className="card-title text-2xl font-serif font-bold">Vasudha Energy attachment</h2>
-    <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
-    <div className="rating ">
-  <input type="radio" name="rating-1" className="mask mask-star" />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star" checked />
-  <input type="radio" name="rating-1" className="mask mask-star" />
-  </div>
-  </div>
-  <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 6,666</div>
-  </div>
-  </div>
-        <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_13').showModal()}>
-     <div  className='text-white p-1 font-semibold text-lg font-sans'>Book Now </div>
-   <Modal13/>
-    </div>
-  </div>
-</div>
-{/* Another card */}
 
 <div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
   <figure><img src="/Anxietytreatments.png" alt="card" /></figure>
@@ -494,7 +468,7 @@ function BookingSection() {
   <div className="card-body ml-4">
     <div className='flex justify-between'>
 <div>
-    <h2 className="card-title text-2xl font-serif font-bold">CANCER Treatment</h2>
+    <h2 className="card-title text-2xl font-serif font-bold">Holistic Treatement for Physical Health</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
@@ -505,7 +479,7 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 5555</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_17').showModal()}>
@@ -515,7 +489,7 @@ function BookingSection() {
   </div>
 </div>
 {/* Another card */}
-<div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
+<div className="card  my-4 card-compact w-96 bg-base-100 shadow-2xl">
   <figure><img src="/vasudha.png" alt="card" /></figure>
  
   <div className="card-body ml-4">
@@ -523,13 +497,13 @@ function BookingSection() {
 <div>
     <h2 className="card-title text-2xl font-serif font-bold">Vasudha & kuber energy</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
-    <div className="rating ">
+    <div className="rating">
   <input type="radio" name="rating-1" className="mask mask-star" />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
   <input type="radio" name="rating-1" className="mask mask-star" checked />
   <input type="radio" name="rating-1" className="mask mask-star" />
-  </div>
+  <input type="radio" name="rating-1" className="mask mask-star" />
+  <input type="radio" name="rating-1" className="mask mask-star" />
+</div>
   </div>
   <div className='flex-none '>
   <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
@@ -554,9 +528,9 @@ function BookingSection() {
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
   <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
   <input type="radio" name="rating-1" className="mask mask-star" checked />
-  <input type="radio" name="rating-1" className="mask mask-star" />
+  <input type="radio" name="rating-1" className="mask mask-star"  />
+  <input type="radio" name="rating-1" className="mask mask-star " />
   </div>
   </div>
   <div className='flex-none '>

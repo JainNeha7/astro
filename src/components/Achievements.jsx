@@ -30,7 +30,7 @@ function Achievements() {
     <img src="/achiever3.jpeg" className="w-80 h-90 mr-8 rounded-lg shadow-2xl" />
     <div>
       
-      <p className="py-6 font-semibold text-2xl">Best Indian Healer reward by Neha Jain</p>
+      <p className="py-6 font-semibold text-2xl">Received- "Best Healer Award" </p>
       
     </div>
   </div>

@@ -6,8 +6,8 @@ function Navbar() {
 
   return (
 
-<><div className='bg-yellow-100'>
-<div className="navbar shadow-xl bg-yellow-200 md:hidden py-2 ">
+<><div className=''>
+<div className="navbar shadow-2xl bg-yellow-200 md:hidden py-2 ">
   <div className="navbar-start font-semibold ">
   
     <div className="dropdown ">

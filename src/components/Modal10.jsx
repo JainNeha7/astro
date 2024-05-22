@@ -57,16 +57,14 @@ const handleForm = (e) => {
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <h3 className="font-bold text-lg">SHALVIK WITH SHIVA HEALING</h3>
-    <p className="py-4">A personal energy chart(Yantra) created for you for the root couses of your problems then the energy of four element</p>
+    <p className="py-4">A personal energy chart will be creat for you after knowing the root cause of your problems and along with other energies the basic four elements given below will be attune in your auric field to balance your routine lifestyle</p>
 <ul>
   <li>-Antariksha - shiva</li>
   <li>- srajan - Brahma</li>
   <li>-Palan - vishnu</li>
   <li>-Yoni - shakti</li>
 </ul>
-
-<p>
-at tune in your auric field balence your life then the other energies which fields finds as per the numerical choices given by you</p>
+<br/>
    <div> <form onSubmit={handleForm} className='space-y-4'>
     <div >
         <label  className="block text-sm font-medium text-gray-700">Name</label>

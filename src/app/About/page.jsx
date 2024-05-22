@@ -5,11 +5,11 @@ function page() {
   return (
  <section className=''>
 
-<div className="hero pt-4 bg-base-200">
+<div className="hero pt-4 bg-base-100">
   <div className="hero-content  flex-col  lg:flex-row-reverse">
     <div className='lg:-mt-96 '>
 
-    <img src="/about.png" className="max-w-md z-0 relative lg:-mt-40 md:max-w-lg md:ml-2  mb-2 rounded-lg shadow-2xl" />
+    <img src="/about.png" className="max-w-sm z-0 relative lg:-mt-40 md:max-w-lg md:ml-2  mb-2 rounded-lg shadow-2xl" />
     </div>
     <div>
       <h1 className="text-4xl  font-bold">About Cozzmo By Neha</h1>

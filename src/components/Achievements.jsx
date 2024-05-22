@@ -2,7 +2,7 @@ import React from 'react'
 
 function Achievements() {
   return (
-    <div className='my-8 '>
+    <div className='my-8 text-black'>
          <div className=' bg-gradient-to-r mt-14 rounded-full from-yellow-300 via-yellow-200 to-yellow-300 flex items-center justify-center'>
       <div className='flex-col py-2'>
         <h2 className='font-serif text-4xl font-bold' > Achievements </h2>

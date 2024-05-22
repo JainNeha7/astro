@@ -3,9 +3,9 @@ import React from 'react'
 
 function page() {
   return (
- <section className=''>
+ <section className='text-black bg-slate-50'>
 
-<div className="hero pt-4 bg-base-100">
+<div className="hero pt-4  ">
   <div className="hero-content  flex-col  lg:flex-row-reverse">
     <div className='lg:-mt-96 relative '>
 

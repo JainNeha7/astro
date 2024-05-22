@@ -34,7 +34,7 @@ const handleform = async()=>{
     <div className="hero p-4 bg-gradient-to-r  from-orange-200 to-orange-400">
    
   <div className="hero-content flex-col lg:flex-row">
-    <div className="text-center flex-none lg:mr-8 lg:text-right">
+    <div className="text-center flex-none text-black lg:mr-8 lg:text-right">
       <h1 className="text-5xl font-bold">Contact Us</h1>
       <div className="w-36 h-1 border-b-4 border-white mt-1 rounded-2xl"></div>
       <p className="p-2 mt-4 bg-yellow-300  text-center font-semibold">We will Contact you Soon</p>

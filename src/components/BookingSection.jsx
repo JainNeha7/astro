@@ -29,7 +29,7 @@ function BookingSection() {
     <div>
       <div className='my-8  bg-gradient-to-r rounded-full from-yellow-300 via-yellow-200 to-yellow-300 flex items-center justify-center'>
       <div className='flex-col py-2'>
-        <h2 className='font-serif text-4xl font-bold' > Booking Section </h2>
+        <h2 className='font-serif text-black text-4xl font-bold' > Booking Section </h2>
         <div className="w-45 h-1 border-b-4 border-orange-500 mt-1 rounded-2xl"></div>
         </div>
       </div>

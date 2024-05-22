@@ -87,7 +87,7 @@ const reviews = [
 
   return (
   <>
-  <div className=" p-4">
+  <div className=" p-4 text-black">
   <div className='my-8  bg-gradient-to-r rounded-full from-yellow-300 via-yellow-200 to-yellow-300 flex items-center justify-center'>
       <div className='flex-col py-2'>
         <h2 className='font-serif text-4xl font-bold' > Reviews </h2>

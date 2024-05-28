@@ -52,7 +52,7 @@ const reviews = [
             reviewer: "Rinke mishra 🙏",
             rating: 3.0,
             date: "2024-05-16",
-            review: "Har Har Mahadev🙏, Shalvik Shiv is devine feeling, it is like just closing your eyes and travelling in universe, where presence of Shivji, Bholenath sath hai can be feeled."
+            review: "Har Har Mahadev🙏, Shalvik Shiv is divine feeling, it is like just closing your eyes and travelling in universe, where presence of Shivji, Bholenath sath hai can be feeled."
           },
     
   ];

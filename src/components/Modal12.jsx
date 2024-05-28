@@ -2,10 +2,10 @@
 'use client'
 import React from 'react'
 import axios from 'axios'
-
+import {useRouter} from "next/navigation";
 
 function Modal12() {
-  
+  const router = useRouter();
 
   const [app, setApp] = React.useState({
     Service:"Maa Baglamukhi healing",
@@ -22,7 +22,7 @@ const handleSubmit = async()=>{
    
     const response = await axios.post("/api/booking",app);
     console.log("form submission success", response.data);
-    alert("Payment Successfull");
+    router.push("/Payment");
     
 
 // toast.success("Form submitted successfully")

@@ -2,11 +2,11 @@
 'use client'
 import React from 'react'
 import axios from 'axios'
-
+import {useRouter} from "next/navigation";
 
 
 function Modal8() {
-  
+  const router = useRouter();
 // const  [selected, setSelected]= React.useState('');
   const [app, setApp] = React.useState({
     Service:`PLANETRY SHIFTINGS HEALINGS`,
@@ -25,13 +25,13 @@ const handleSubmit = async()=>{
   try{
     const response = await axios.post("/api/booking",app);
     console.log("form submission success", response.data);
-    alert("Payment Successfull");
-    console.log(selected);
+    router.push("/Payment");
+    // console.log(selected);
 
 // toast.success("Form submitted successfully")
   }catch(error){
   console.log("Submission failed", error.message);
-
+  alert('Please fill the form properly');
   }
 }
 

@@ -2,13 +2,14 @@
 'use client'
 import React from 'react'
 import axios from 'axios'
+import {useRouter} from "next/navigation";
 
 
 function Modal6() {
   
-
+  const router = useRouter();
   const [app, setApp] = React.useState({
-    Service:"Black magic removal",
+    Service:"Humkara with Haleem",
     price:"₹ 8888",
     name:"",
     email:"",
@@ -22,8 +23,7 @@ const handleSubmit = async()=>{
    
     const response = await axios.post("/api/booking",app);
     console.log("form submission success", response.data);
-    alert("Payment Successfull");
-    
+    router.push("/Payment");
 
 // toast.success("Form submitted successfully")
   }catch(error){
@@ -38,7 +38,7 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"Black magic removal",
+    Service:"Humkara with Haleem",
     price:"₹ 8888",
     name: '',
     email: '',
@@ -56,9 +56,8 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">Black magic removal</h3>
-    <p className="py-4">Black magic removal is like dispelling dark clouds from your life ☁️. It's a process of cleansing and protection from negative energies and influences ⚔️. Through rituals, prayers, and spiritual practices, it aims to restore balance and harmony 🕊️. It's about breaking free from the grip of malevolent forces and reclaiming your peace and well-being 🌟. 
-1 sitting </p>
+    <h3 className="font-bold text-lg">Humkara with Haleem</h3>
+    <p className="py-4">In Humkara with Haleem, Prana energy is projected and directed in a systematic and balanced way, so that it implants the energy in the five sheaths of the body. This helps to reprogram the energy body and aura. </p>
    <div> <form onSubmit={handleForm} className='space-y-4'>
     <div >
         <label  className="block text-sm font-medium text-gray-700">Name</label>

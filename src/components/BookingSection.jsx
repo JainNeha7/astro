@@ -186,7 +186,7 @@ function BookingSection() {
   <div className="card-body ml-4">
     <div className='flex justify-between'>
 <div>
-    <h2 className="card-title text-2xl font-serif font-bold">Black Magic Removal</h2>
+    <h2 className="card-title text-2xl font-serif font-bold">Humkara with Haleem</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />

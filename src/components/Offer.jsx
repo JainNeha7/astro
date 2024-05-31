@@ -4,15 +4,15 @@ function Offer() {
   return (
     <div>
       <dialog id="my_modal" className="modal">
-   <div className="modal-box bg-gradient-to-r from-purple-500 to-pink-500">
+   <div className="modal-box bg-gradient-to-r   from-purple-500 to-pink-500">
      <form method="dialog">
        {/* if there is a button in form, it will close the modal */}
        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
      </form>
-     <h2 className="font-bold text-2xl "> 🌟 Website Launch Offer!! 🌟</h2>
+     <h2 className="font-bold text-2xl  "> 🌟 Website Launch Offer!! 🌟</h2>
      <p className="py-4 text-xl font-semibold ml-10">50% off on All Services <br></br>Donot Miss this Great oppertunity</p>
 <div className='my-2 ml-10'>
-   <Link className='bg-black p-3 rounded-lg hover:bg-white hover:text-black' href='/#services'>Grab It Now</Link>
+   <Link className='bg-black p-3 rounded-lg  hover:bg-white hover:text-black' href='/#services'>Grab It Now</Link>
    </div>
    </div>
  </dialog>

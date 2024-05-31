@@ -12,7 +12,7 @@ function page() {
     <img src="/about.png" className="max-w-full z-0 relative lg:-mt-40 md:max-w-lg md:ml-2 object-contain mb-2 rounded-lg shadow-2xl" />
     </div>
     <div>
-      <h1 className="text-4xl  font-bold">About Cozzmo By Neha</h1>
+      <h1 className="text-4xl  font-bold">Nehaa Jain</h1>
       <div className="w-36 h-1 border-b-4 border-orange-500 mt-1 rounded-2xl"></div>
       <p className="py-4 text-sm md:text-md ">Welcome to cozzmo By Neha, your destination for spiritual guidance and personal transformation. Neha Jain, our seasoned and healer, brings over two decades of experience to the table, assisting individuals on their journey towards self-discovery and empowerment.</p>
     

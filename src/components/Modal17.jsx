@@ -8,7 +8,7 @@ function Modal17() {
   const router = useRouter();
 
   const [app, setApp] = React.useState({
-    Service:"Holistic Treatement for Physical Health",
+    Service:"Holistic Treatement Consultation for Health issues",
     price:"₹ 5555",
     name:"",
     email:"",
@@ -38,7 +38,7 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"Holistic Treatement for Physical Health",
+    Service:"Holistic Treatement Consultation for Health issues",
     price:"₹ 5555",
     name: '',
     email: '',
@@ -56,7 +56,7 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">Holistic Treatement for Physical Health</h3>
+    <h3 className="font-bold text-lg">Holistic Treatement Consultation for Health issues</h3>
     <p className="py-4">After consultation, ma'am will check the aura and identify the root cause of the patient's problem to determine further holistic treatments.
 </p>
 

@@ -8,7 +8,7 @@ function Modal15() {
   const router = useRouter();
 
   const [app, setApp] = React.useState({
-    Service:"Spiritual treatment for conceptual, pregnancy",
+    Service:"Holistic Treatement for Pregnancy",
     price:"₹ 7777",
     name:"",
     email:"",
@@ -38,7 +38,7 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"Spiritual treatment for conceptual, pregnancy",
+    Service:"Holistic Treatement for Pregnancy",
     price:"₹ 7777",
     name: '',
     email: '',
@@ -56,7 +56,7 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">Spiritual treatment for conceptual, pregnancy</h3>
+    <h3 className="font-bold text-lg">Holistic Treatement for Pregnancy</h3>
     <p className="py-4">Spiritual treatment for conceptual pregnancy involves a healer channeling positive energy and intentions to support the conception process on a spiritual level. This can include practices like meditation, prayer, visualization, and energy healing to create a harmonious environment for conception to occur. 🌱✨ Would you like to delve deeper into any specific aspect?
 </p>
 

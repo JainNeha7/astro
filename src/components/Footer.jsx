@@ -9,7 +9,12 @@ function Footer() {
     <a className="link link-hover " href='/About'>About us</a>
     <a className="link link-hover" href='/Contact'>Contact</a>
     <a className="link link-hover" href='/Services'>Services</a>
-    <a className="link link-hover" href='/Terms'>Terms and Conditions</a>
+   
+      <ul className='flex-col '>
+        <li> <a className="link link-hover" href='/Terms'>Terms and Condition</a></li>
+        <li> <a className="link link-hover" href='/privacy'>Privacy Policy</a></li>
+        <li> <a className="link link-hover" href='/refund'>Refund/Cancellation</a></li>
+        </ul>
     
    
   </nav> 

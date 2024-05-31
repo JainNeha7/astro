@@ -1,12 +1,9 @@
 import React from 'react'
-
-import Condition from '@/components/Condition'
-
+import Privacy from '@/components/privacy'
 function page() {
   return (
     <div>
-        <Condition/>
-        
+     <Privacy/> 
     </div>
   )
 }

@@ -58,6 +58,12 @@ const handleForm = (e) => {
     </form>
     <h3 className="font-bold text-lg">Vastu healing</h3>
     <p className="py-4">Vastu healing for a healer involves optimizing the energy flow in their workspace to enhance healing abilities. 🏡✨ This includes positioning their treatment table or chair in alignment with Vastu principles, using calming colors like blue or green, and incorporating natural elements like plants for positive energy. 🔮💫 Creating a serene and harmonious environment can amplify the healer's healing powers and promote a sense of balance and well-being for both the healer and their clients. 🌿🌟
+    <br/>
+    Vastu Healing for cleanzing negative vibration of the Place<br/>
+    <ul className='mt-2'>
+   <li>Online - ₹ 7,777 </li>
+   <li>Offline - ₹ 10,001 </li>
+    </ul>
 </p>
 
    <div> <form onSubmit={handleForm} className='space-y-4'>

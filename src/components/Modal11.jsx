@@ -8,7 +8,7 @@ function Modal11() {
   const router = useRouter();
 
   const [app, setApp] = React.useState({
-    Service:"yogmaya healing for 1 MANOKAMNA fulfillment",
+    Service:"Yogmaya",
     price:"₹ 55,555",
     name:"",
     email:"",
@@ -38,7 +38,7 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"yogmaya healing for 1 MANOKAMNA fulfillment",
+    Service:"Yogmaya",
     price:"₹ 55,555",
     name: '',
     email: '',
@@ -56,8 +56,10 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">yogmaya healing for 1 MANOKAMNA fulfillment</h3>
-    <p className="py-4">Yogmaya healing for one manokamna fulfillment might involve various practices such as meditation, chanting, visualization, and energy healing to manifest desires. 🧘‍♂️✨ It's a holistic approach aiming to align mind, body, and spirit to attract and manifest desires. 🙏🌟</p>
+    <h3 className="font-bold text-lg">Yogmaya</h3>
+    <p className="py-4">Yogmaya healing for one manokamna fulfillment might involve various practices such as meditation, chanting, visualization, and energy healing to manifest desires. 🧘‍♂️✨ It's a holistic approach aiming to align mind, body, and spirit to attract and manifest desires. 🙏🌟<br/>
+    (3 Sittings of all nine Planets so that all nine Planets will start shifting their energies towards your Manokamna)
+    </p>
    <div> <form onSubmit={handleForm} className='space-y-4'>
     <div >
         <label  className="block text-sm font-medium text-gray-700">Name</label>

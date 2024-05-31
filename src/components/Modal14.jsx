@@ -10,7 +10,7 @@ function Modal14() {
   const router = useRouter();
 
   const [app, setApp] = React.useState({
-    Service:"Anxiety treatments healing",
+    Service:"Holistic Treatement for Anxiety",
     price:"₹ 35,333",
     name:"",
     email:"",
@@ -40,7 +40,7 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"Anxiety treatments healing",
+    Service:"Holistic Treatement for Anxiety",
     price:"₹ 35,333",
     name: '',
     email: '',
@@ -58,8 +58,10 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">Anxiety treatments healing</h3>
+    <h3 className="font-bold text-lg">Holistic Treatement for Anxiety</h3>
     <p className="py-4">Sure, here are some anxiety treatments expressed with emojis: 1. 😌 Mindfulness Meditation: Practice deep breathing and focus on the present moment to calm the mind. 2. 🏃‍♂️ Exercise: Regular physical activity helps reduce stress hormones and improves mood. 3. 📚 Therapy: Talking to a therapist can provide coping strategies and support. 4. 🍎 Healthy Lifestyle: Eating nutritious foods, getting enough sleep, and avoiding alcohol and caffeine can help manage anxiety. 5. 💤 Relaxation Techniques: Try progressive muscle relaxation, guided imagery, or aromatherapy to unwind.
+<br/>
+Holistic Treatement for Anxiety and depression issues included counselling Session
 </p>
 
    <div> <form onSubmit={handleForm} className='space-y-4'>

@@ -55,7 +55,7 @@ function BookingSection() {
   </div>
   </div>
   <div className=' '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 5555</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 5,555</span><br/>₹ 2,777</div>
   </div>
   </div>
          <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_1').showModal()}>
@@ -84,7 +84,7 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none'>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7777</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 3,888 </div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_2').showModal()}>
@@ -112,7 +112,7 @@ function BookingSection() {
   </div>
   </div>
   <div className=' '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 8888</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 8,888</span><br/>₹ 4,444</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_3').showModal()}>
@@ -141,7 +141,7 @@ function BookingSection() {
   </div>
   </div>
   <div className=' flex-none'>
-  <div className='bg-orange-500 p-4 mr-2 mt-2 text-white font-bold text-lg rounded-full'>₹ 5555</div>
+  <div className='bg-orange-500 p-4 mr-2 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 5,555</span><br/>₹ 2,777</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_4').showModal()}>
@@ -169,7 +169,7 @@ function BookingSection() {
   </div>
   </div>
   <div className=' '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 2,222</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 2,222</span><br/>₹ 1,111</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_5').showModal()} >
@@ -197,7 +197,8 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 8,888</div>
+  <h2>2 Sittings</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 8,888</span><br/>₹ 4,444</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_6').showModal()}>
@@ -225,7 +226,8 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 33,333</div>
+  <h2 className='font-semibold '>(1 Month)</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full '><span className='line-through'>₹ 33,333</span><br/>₹ 17,000</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center'  onClick={()=>document.getElementById('my_modal_7').showModal()}>
@@ -253,7 +255,8 @@ function BookingSection() {
   </div>
   </div>
   <div className=' flex-none'>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 5,555</div>
+  <h2>2 Sittings for chosen planet</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-center text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 5,555</span><br/>₹ 2,777</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center'  onClick={()=>document.getElementById('my_modal_8').showModal()}>
@@ -281,7 +284,8 @@ function BookingSection() {
   </div>
   </div>
   <div className=' flex-none'>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 22,222</div>
+  <h2 className='font-semibold '>(1 Month)</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 22,222</span><br/>₹ 11,111</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_9').showModal()}>
@@ -309,7 +313,8 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 5,555</div>
+  <h2  >(Personal Energy Chart<br/> will be Prepared)</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white text-center font-bold text-lg rounded-full'><span className='line-through'>₹ 5,555</span><br/>₹ 2,777</div>
   </div>
   </div> 
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_10').showModal()}>
@@ -326,7 +331,7 @@ function BookingSection() {
   <div className="card-body ml-4">
     <div className='flex justify-between'>
 <div>
-    <h2 className="card-title text-2xl font-serif font-bold">Yogmaya Healing for 1 Manokamna Fulfillment</h2>
+    <h2 className="card-title text-2xl font-serif font-bold">Yogmaya</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
@@ -337,7 +342,8 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 55,555</div>
+  <h2 className='font-semibold '>(1 Month)</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 55,555</span><br/>₹ 27,777</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_11').showModal()}>
@@ -366,7 +372,7 @@ function BookingSection() {
   </div>
   <div className='flex-none '>
     <h2>3 Sittings</h2>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 3,888</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_12').showModal()}>
@@ -384,7 +390,7 @@ function BookingSection() {
   <div className="card-body ml-4">
     <div className='flex justify-between'>
 <div>
-    <h2 className="card-title text-2xl font-serif font-bold">Anxiety treatments healing</h2>
+    <h2 className="card-title text-2xl font-serif font-bold">Holistic Treatement for Anxiety</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
@@ -395,7 +401,8 @@ function BookingSection() {
   </div>
   </div>
   <div className=' flex-none'>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 35,333</div>
+  <h2 className='font-semibold '>(1 Month)</h2>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 35,333</span><br/>₹ 17,666</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_14').showModal()}>
@@ -412,7 +419,7 @@ function BookingSection() {
   <div className="card-body ml-4">
     <div className='flex justify-between'>
 <div>
-    <h2 className="card-title text-2xl font-serif font-bold">Spiritual treatment for conceptual, pregnancy</h2>
+    <h2 className="card-title text-2xl font-serif font-bold">Holistic Treatement for Pregnancy</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
@@ -423,7 +430,7 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 3,888</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_15').showModal()}>
@@ -434,7 +441,7 @@ function BookingSection() {
 </div>
 {/* Another card */}
 
-<div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
+{/* <div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
   <figure><img src="/physicaltreatment.png" alt="card" /></figure>
  
   <div className="card-body ml-4">
@@ -459,7 +466,7 @@ function BookingSection() {
   <Modal16/>
     </div>
   </div>
-</div>
+</div> */}
 {/* Another card */}
 
 <div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
@@ -468,7 +475,7 @@ function BookingSection() {
   <div className="card-body ml-4">
     <div className='flex justify-between'>
 <div>
-    <h2 className="card-title text-2xl font-serif font-bold">Holistic Treatement for Physical Health</h2>
+    <h2 className="card-title text-2xl font-serif font-bold">Holistic Treatement Consultation for Health issues</h2>
     <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
     <div className="rating ">
   <input type="radio" name="rating-1" className="mask mask-star" />
@@ -479,7 +486,7 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 5555</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 5,555</span><br/>₹ 2,777</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_17').showModal()}>
@@ -506,7 +513,8 @@ function BookingSection() {
 </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
+    <h3># Sittings</h3>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 3,888</div>
   </div>
   </div>
         <div onClick={()=>document.getElementById('my_modal_18').showModal()} className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center'>
@@ -534,7 +542,7 @@ function BookingSection() {
   </div>
   </div>
   <div className='flex-none '>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 3,888</div>
   </div>
   </div>
         <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_19').showModal()}>
@@ -544,7 +552,32 @@ function BookingSection() {
   </div>
 </div>
 {/* Another card */}
-
+<div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
+  <figure><img src="/physicaltreatment.png" alt="card" /></figure>
+ 
+  <div className="card-body ml-4">
+    <div className='flex justify-between'>
+<div>
+    <h2 className="card-title text-2xl font-serif font-bold">Course <br/> Advance Tarot Prgram</h2>
+    <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
+    <div className="rating ">
+  <input type="radio" name="rating-1" className="mask mask-star" />
+  <input type="radio" name="rating-1" className="mask mask-star"  />
+  <input type="radio" name="rating-1" className="mask mask-star"  />
+  <input type="radio" name="rating-1" className="mask mask-star" checked />
+  <input type="radio" name="rating-1" className="mask mask-star" />
+  </div>
+  </div>
+  <div className=' flex-none'>
+  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 2,777</div>
+  </div>
+  </div>
+        <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_16').showModal()}>
+     <div  className='text-white p-1 font-semibold text-lg font-sans'>Book Now </div>
+  <Modal16/>
+    </div>
+  </div>
+</div>
 
 
   </div>

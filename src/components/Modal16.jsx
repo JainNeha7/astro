@@ -8,8 +8,8 @@ function Modal16() {
   const router = useRouter();
 
   const [app, setApp] = React.useState({
-    Service:"Physical treatment",
-    price:"₹ 7777",
+    Service:"Course - Advance Tarot Programme",
+    price:"₹ 5555",
     name:"",
     email:"",
     phone:"",
@@ -38,8 +38,8 @@ const handleForm = (e) => {
 
   // Clear the form data
   setApp({
-    Service:"Physical treatment",
-    price:"₹ 7777",
+    Service:"Course - Advance Tarot Programme",
+    price:"₹ 5555",
     name: '',
     email: '',
     phone: '',
@@ -56,8 +56,8 @@ const handleForm = (e) => {
       {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    <h3 className="font-bold text-lg">Physical treatment</h3>
-    <p className="py-4">Physical treatment for a healer involves activities or therapies aimed at relieving physical strain or injuries caused by their healing work. This could include massage therapy 💆‍♂️, acupuncture 📌, chiropractic adjustments 🦴, hot/cold therapy 🌡️, and exercises/stretching 🏋️‍♀️. These treatments help you maintain their physical well-being and continue their important work
+    <h3 className="font-bold text-lg">Course - Advance Tarot Programme</h3>
+    <p className="py-4">Advance Tarot Programme included Tarot Deck with Physical Notes and Certificate
 </p>
 
    <div> <form onSubmit={handleForm} className='space-y-4'>

@@ -1,11 +1,22 @@
+'use client'
 import BookingSection from "@/components/BookingSection";
 import Image from "next/image";
 import Reviews from "@/components/Reviews";
 import Achievements from "@/components/Achievements";
+import Offer from "@/components/Offer";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const timer = setTimeout(function(){
+        document.getElementById('my_modal').showModal()
+      }, 3000);
+
+      return () => clearTimeout(timer);
+    }, []);
   return (
     <>
+   
     <div className="bg-white">
 
       <div className="hero bg-gradient-to-r text-black from-yellow-200 via-yellow-100 to-yellow-300">
@@ -15,9 +26,9 @@ export default function Home() {
         <div className="pr-5">  
         <h1 className="font-bold  text-3xl">Nehaa Jain</h1>
         <div className="w-36 h-1 border-b-4 border-orange-500 mt-1 rounded-2xl"></div>
-        <p className="font-sans font-medium mt-2 lg:mr-5 md:text-md lg:text-lg">She is Blessed soul with super Natural powers of Healing and Psychic senses which is directly given by the universe. She has the blessings of MAHADEV🙏and MAA KALI.<br/>
-        She started her Spritual journey in 2022 when some unfavorable incident happend in her life. She  then started to seek answers to her unresolved  questions. Soon she felt her divine connections with universe where her Grandfather's spirit helped her to begin her journey towards spirituality. The guidance from her Grandfather's soul helped her to connect with the divine “ Lord Shiva “ where she realised her connections with the divine and her spiritual gifts.<br/>
-        MAHADEV BLESSED her unlock the powerful MAHAMRITUNJAYA MANTRA and MAA KALI BLESSED her with divine Spiritual gifts of speaking with Spirits in Heavens and earth. She got even blessed with the unlock vibrations of the Beej mantra of MAA KALI.  She had a blissful journey. And all the needy souls can also be a part of it.</p>
+        <p className="font-sans font-medium mt-2 lg:mr-5 md:text-md lg:text-lg">She is a blessed soul with supernatural powers of healing and psychic senses, directly bestowed by the universe. She has the blessings of Mahadev and Maa Kali. Her spiritual journey began in 2022 when an unfavorable incident occurred in her life, prompting her to seek answers to her unresolved questions. <br/>
+        Soon, she felt her divine connections with the universe, where her grandfather's spirit helped her embark on her spiritual journey. The guidance from her grandfather's soul led her to connect with the divine Lord Shiva, where she realized her spiritual gifts and divine connections.<br/>
+        Mahadev blessed her with the powerful Mahamrityunjaya Mantra, and Maa Kali endowed her with divine spiritual gifts, including the ability to communicate with spirits in the heavens and on earth. She was also blessed with the unlocked vibrations of the Beej Mantra of Maa Kali. Her journey has been blissful, and she invites all needy souls to be a part of it.</p>
         </div>
         
         </div>
@@ -29,7 +40,8 @@ export default function Home() {
       <section id="achievements" className="my-4"><Achievements/></section>
       
       </div>
-    
+      <Offer/>
     </>
+  
   );
 }

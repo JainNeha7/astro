@@ -47,9 +47,17 @@ const handleform = async()=>{
 <h3 className="mt-1">9721423456</h3>
 </div>
 <div className="flex text-center p-1 ">
-<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 128 96"  width="30" height="30" id="email"><g><path d="M0 11.283V8a8 8 0 0 1 8-8h112a8 8 0 0 1 8 8v3.283l-64 40zm66.12 48.11a4.004 4.004 0 0 1-4.24 0L0 20.717V88a8 8 0 0 0 8 8h112a8 8 0 0 0 8-8V20.717z"></path></g></svg>
-<h3 className="mt-1 pl-2">jneha0459@gmail.com</h3>
+<svg xmlns="http://www.w3.org/2000/svg" className="size-7 ml-1"  viewBox="0 0 128 96"  width="30" height="30" id="email"><g><path d="M0 11.283V8a8 8 0 0 1 8-8h112a8 8 0 0 1 8 8v3.283l-64 40zm66.12 48.11a4.004 4.004 0 0 1-4.24 0L0 20.717V88a8 8 0 0 0 8 8h112a8 8 0 0 0 8-8V20.717z"></path></g></svg>
+<h3 className="mt-1  pl-2">jneha0459@gmail.com</h3>
 </div>
+<div className="flex text-center p-1 ">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-8 mb-1 ml-1">
+  <path fillRule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clipRule="evenodd" />
+</svg>
+
+<h3 className="mt-1 pl-1 pr-4"> 76/577 , coolie Bazar, Kanpur Nagar, <br/>Uttar Pradesh, India</h3>
+</div>
+
 
 
       

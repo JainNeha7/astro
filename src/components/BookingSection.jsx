@@ -180,8 +180,8 @@ function BookingSection() {
 </div>
 {/* Another card */}
 
-<div className="card card-compact w-96 bg-base-100 shadow-2xl">
-  <figure><img src="/tarot.jpg" alt="card" /></figure>
+<div className="card card-compact w-96 h-100 mt-1 bg-base-100 shadow-2xl">
+  <figure><img src="/humakara.jpeg" alt="card" className='w-4/6 0 -my-8' /></figure>
  
   <div className="card-body ml-4">
     <div className='flex justify-between'>

@@ -513,7 +513,7 @@ function BookingSection() {
 </div>
   </div>
   <div className='flex-none '>
-    <h3># Sittings</h3>
+    <h3>1 Sitting</h3>
   <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'><span className='line-through'>₹ 7,777</span><br/>₹ 3,888</div>
   </div>
   </div>

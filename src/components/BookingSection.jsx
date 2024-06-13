@@ -82,8 +82,7 @@ function BookingSection() {
                     </div>
                     <div className=" ">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 5,555</span>
-                        <br />₹ 2,777
+                        ₹ 5,555
                       </div>
                     </div>
                   </div>
@@ -146,8 +145,7 @@ function BookingSection() {
                     </div>
                     <div className="flex-none">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 7,777</span>
-                        <br />₹ 3,888{" "}
+                        ₹ 7,777
                       </div>
                     </div>
                   </div>
@@ -209,8 +207,7 @@ function BookingSection() {
                     </div>
                     <div className=" ">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 8,888</span>
-                        <br />₹ 4,444
+                        ₹ 8,888
                       </div>
                     </div>
                   </div>
@@ -272,8 +269,7 @@ function BookingSection() {
                     </div>
                     <div className=" flex-none">
                       <div className="bg-orange-500 p-4 mr-2 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 5,555</span>
-                        <br />₹ 2,777
+                        ₹ 5,555
                       </div>
                     </div>
                   </div>
@@ -335,8 +331,7 @@ function BookingSection() {
                     </div>
                     <div className=" ">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 2,222</span>
-                        <br />₹ 1,111
+                        ₹ 2,222
                       </div>
                     </div>
                   </div>
@@ -403,8 +398,7 @@ function BookingSection() {
                     <div className="flex-none ">
                       <h2>2 Sittings</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 8,888</span>
-                        <br />₹ 4,444
+                        ₹ 8,888
                       </div>
                     </div>
                   </div>
@@ -467,8 +461,7 @@ function BookingSection() {
                     <div className="flex-none ">
                       <h2 className="font-semibold ">(1 Month)</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full ">
-                        <span className="line-through">₹ 33,333</span>
-                        <br />₹ 17,000
+                        ₹ 33,333
                       </div>
                     </div>
                   </div>
@@ -531,8 +524,7 @@ function BookingSection() {
                     <div className=" flex-none">
                       <h2>2 Sittings for chosen planet</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-center text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 5,555</span>
-                        <br />₹ 2,777
+                        ₹ 5,555
                       </div>
                     </div>
                   </div>
@@ -595,8 +587,7 @@ function BookingSection() {
                     <div className=" flex-none">
                       <h2 className="font-semibold ">(1 Month)</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 22,222</span>
-                        <br />₹ 11,111
+                        ₹ 22,222
                       </div>
                     </div>
                   </div>
@@ -662,8 +653,7 @@ function BookingSection() {
                         <br /> will be Prepared)
                       </h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white text-center font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 5,555</span>
-                        <br />₹ 2,777
+                        ₹ 5,555
                       </div>
                     </div>
                   </div>
@@ -726,8 +716,7 @@ function BookingSection() {
                     <div className="flex-none ">
                       <h2 className="font-semibold ">(1 Month)</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 55,555</span>
-                        <br />₹ 27,777
+                        ₹ 55,555
                       </div>
                     </div>
                   </div>
@@ -790,8 +779,7 @@ function BookingSection() {
                     <div className="flex-none ">
                       <h2>3 Sittings</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 7,777</span>
-                        <br />₹ 3,888
+                        ₹ 7,777
                       </div>
                     </div>
                   </div>
@@ -854,8 +842,7 @@ function BookingSection() {
                     <div className=" flex-none">
                       <h2 className="font-semibold ">(1 Month)</h2>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 35,333</span>
-                        <br />₹ 17,666
+                        ₹ 35,333
                       </div>
                     </div>
                   </div>
@@ -920,8 +907,7 @@ function BookingSection() {
                     </div>
                     <div className="flex-none ">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 7,777</span>
-                        <br />₹ 3,888
+                        ₹ 7,777
                       </div>
                     </div>
                   </div>
@@ -938,34 +924,6 @@ function BookingSection() {
                   </div>
                 </div>
               </div>
-              {/* Another card */}
-
-              {/* <div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
-  <figure><img src="/physicaltreatment.png" alt="card" /></figure>
- 
-  <div className="card-body ml-4">
-    <div className='flex justify-between'>
-<div>
-    <h2 className="card-title text-2xl font-serif font-bold">Physical treatment</h2>
-    <div className='border-b-4 mb-2 border-yellow-400 w-36 h-1'></div>
-    <div className="rating ">
-  <input type="radio" name="rating-1" className="mask mask-star" />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star"  />
-  <input type="radio" name="rating-1" className="mask mask-star" checked />
-  <input type="radio" name="rating-1" className="mask mask-star" />
-  </div>
-  </div>
-  <div className=' flex-none'>
-  <div className='bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full'>₹ 7,777</div>
-  </div>
-  </div>
-        <div className='bg-blue-600 hover:cursor-pointer hover:bg-yellow-300 rounded flex justify-center' onClick={()=>document.getElementById('my_modal_16').showModal()}>
-     <div  className='text-white p-1 font-semibold text-lg font-sans'>Book Now </div>
-  <Modal16/>
-    </div>
-  </div>
-</div> */}
               {/* Another card */}
 
               <div className="card my-4 card-compact w-96 bg-base-100 shadow-2xl">
@@ -1011,8 +969,7 @@ function BookingSection() {
                     </div>
                     <div className="flex-none ">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 5,555</span>
-                        <br />₹ 2,777
+                        ₹ 5,555
                       </div>
                     </div>
                   </div>
@@ -1074,8 +1031,7 @@ function BookingSection() {
                     <div className="flex-none ">
                       <h3>1 Sitting</h3>
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 7,777</span>
-                        <br />₹ 3,888
+                        ₹ 7,777
                       </div>
                     </div>
                   </div>
@@ -1137,8 +1093,7 @@ function BookingSection() {
                     </div>
                     <div className="flex-none ">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 7,777</span>
-                        <br />₹ 3,888
+                        ₹ 7,777
                       </div>
                     </div>
                   </div>
@@ -1199,8 +1154,7 @@ function BookingSection() {
                     </div>
                     <div className=" flex-none">
                       <div className="bg-orange-500 p-4 mr-4 mt-2 text-white font-bold text-lg rounded-full">
-                        <span className="line-through">₹ 7,777</span>
-                        <br />₹ 2,777
+                        ₹ 7,777
                       </div>
                     </div>
                   </div>
